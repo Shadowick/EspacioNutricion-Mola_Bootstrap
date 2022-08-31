@@ -4,17 +4,21 @@ main form {
     border-style: dotted;
     width: 250px;
 }
-.imgNosotros img{
-    animation-name: inicial;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-    animation-duration: 8s;
-    animation-delay: 2s;
+.imgMenu {
+    width: 150px;
+    height: 150px;
 }
-@keyframes inicial {
-    0%{transform: translateX(100px);}
-    25%{transform: translateY(100px);}
-    50%{transform: rotate(360deg);}
-    75%{transform: translate(100px, 100px);}
-    100%{transform: scale(1,1);}
+.imgFooter {
+    width: 70px;
+    height: 70px;
+}
+.imgPortada {
+    width: 100%;
+}
+.imgInfoNutri{
+    width: 150px;
+    height: 150px;
+}
+.bgFondo {
+    background-color: rgb(172, 194, 85);
 }
