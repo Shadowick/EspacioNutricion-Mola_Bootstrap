@@ -19,6 +19,9 @@ main form {
     width: 150px;
     height: 150px;
 }
+.imgNosotros{
+    width: 100%;
+}
 .bgFondo {
     background-color: rgb(172, 194, 85);
 }
