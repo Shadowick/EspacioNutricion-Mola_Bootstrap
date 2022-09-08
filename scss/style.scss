@@ -1,0 +1,22 @@
+@import "imagenes";
+@import "colores";
+@import "fuentes";
+
+main form {
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    border-style: dotted;
+    width: 320px;
+}
+div {
+    li {
+        a{
+        padding: 10px;
+        }
+    }
+}
+ @media only screen and (max-width: 768px){
+    .imgPortada{
+        height: 125px;
+    }
+}

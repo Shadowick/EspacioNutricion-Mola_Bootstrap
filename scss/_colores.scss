@@ -1,0 +1,11 @@
+h1, h2, p,ol li,{
+    color: rgb(172, 194, 85);
+}
+.bg{
+    &--fondo {
+    background-color: rgb(172, 194, 85);
+    }
+    &--green{
+    background: rgb(172, 194, 85);
+    }
+}

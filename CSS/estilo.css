@@ -1,56 +1,68 @@
-main form {
-    margin: 10px 10px 10px 10px;
-    padding: 20px 20px 20px 20px;
-    border-style: dotted;
-    width: 320px;
-}
 .imgMenu {
-    width: 150px;
-    height: 150px;
-}
+  width: 150px;
+  height: 150px; }
+
 .imgFooter {
-    width: 70px;
-    height: 70px;
-}
+  width: 70px;
+  height: 70px; }
+
 .imgPortada {
-    width: 100%;
-}
-.imgInfoNutri{
-    width: 150px;
-    height: 150px;
-    transition: height 1s, width 1s;
-}
-.imgInfoNutri:hover {
-    height: 300px;
-    width: 300px;
-}
-.imgNosotros{
-    width: 100%;
-}
-.bgFondo {
-    background-color: rgb(172, 194, 85);
-}
-.bg-green{
-    background: rgb(172, 194, 85);
-}
-li {
-    padding: 10px;
-    list-style-type: none;
-    font-size: 12pt;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- }
-p{
-     font-family: Arial, Helvetica, sans-serif;
-     font-style: italic;
-     font-size: normal;
- }
- h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: larger;
- }
- h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
-    font-size: medium;
- }
+  width: 100%;
+  height: 300px; }
+
+.imgInfoNutri {
+  width: 300px;
+  height: 200px; }
+
+.imgNosotros {
+  width: 100%; }
+
+.imgRecetas {
+  overflow: hidden; }
+  .imgRecetas img {
+    transition: all 1.2s ease-in-out; }
+  .imgRecetas :hover img {
+    transform: scale(1.2); }
+
+h1, h2, p, ol li {
+  color: #acc255; }
+
+.bg--fondo {
+  background-color: #acc255; }
+
+.bg--green {
+  background: #acc255; }
+
+div li a {
+  list-style-type: none;
+  font-size: 16pt;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+div p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: normal;
+  text-justify: auto; }
+
+div h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: larger; }
+
+div h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-size: medium; }
+
+main form {
+  margin: 10px 10px 10px 10px;
+  padding: 20px 20px 20px 20px;
+  border-style: dotted;
+  width: 320px; }
+
+div li a {
+  padding: 10px; }
+
+@media only screen and (max-width: 768px) {
+  .imgPortada {
+    height: 125px; } }
