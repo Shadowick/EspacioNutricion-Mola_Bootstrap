@@ -1,18 +1,17 @@
+@import "mixings";
+
 .imgMenu {
-    width: 150px;
-    height: 150px;
+    @include tamaños(150px, 150px);
 }
 .imgFooter {
-    width: 70px;
-    height: 70px;
+    @include tamaños(70px, 70px);
 }
 .imgPortada {
     width: 100%;
     height: 300px;
 }
 .imgInfoNutri {
-    width: 300px;
-    height: 200px
+    @include tamaños(300px, 200px);
 }
 .imgNosotros {
     width: 100%;

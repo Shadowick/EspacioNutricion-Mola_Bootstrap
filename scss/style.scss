@@ -1,6 +1,8 @@
 @import "imagenes";
 @import "colores";
 @import "fuentes";
+@import "mixings";
+@import "maps";
 
 main form {
     margin: 10px 10px 10px 10px;
@@ -18,5 +20,30 @@ div {
  @media only screen and (max-width: 768px){
     .imgPortada{
         height: 125px;
+    }
+}
+.formatoRecetas {
+	@include tamaños(225px, 40px);
+    color:  rgb(172, 194, 85);
+	background-color:white;
+    border: map-get($estilosRecetas, bordes);
+    text-align: map-get($estilosRecetas, centro);
+    font-size: map-get($estilosRecetas, tamañoFuente);
+    font-family: map-get($estilosRecetas, familiaFuente);
+    &--Desayuno{
+        @extend .formatoRecetas;
+        color:rgb(247, 0, 0);
+    }
+    &--Almuerzo{
+        @extend .formatoRecetas;
+        color:rgb(133, 0, 110);
+    }
+    &--Merienda{
+        @extend .formatoRecetas;
+        color:rgb(0, 206, 10);
+    }
+    &--Cena{
+        @extend .formatoRecetas;
+        color:rgb(223, 126, 0);
     }
 }

@@ -24,7 +24,7 @@
   .imgRecetas :hover img {
     transform: scale(1.2); }
 
-h1, h2, p, ol li {
+h1, h2, p {
   color: #acc255; }
 
 .bg--fondo {
@@ -33,10 +33,12 @@ h1, h2, p, ol li {
 .bg--green {
   background: #acc255; }
 
-div li a {
-  list-style-type: none;
-  font-size: 16pt;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+div li {
+  list-style-type: none; }
+  div li a {
+    list-style-type: none;
+    font-size: 16pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 div p {
   font-family: Arial, Helvetica, sans-serif;
@@ -66,3 +68,21 @@ div li a {
 @media only screen and (max-width: 768px) {
   .imgPortada {
     height: 125px; } }
+
+.formatoRecetas, .formatoRecetas--Desayuno, .formatoRecetas--Almuerzo, .formatoRecetas--Merienda, .formatoRecetas--Cena {
+  width: 225px;
+  height: 40px;
+  color: #acc255;
+  background-color: white;
+  border: 4px groove #acc255;
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif; }
+  .formatoRecetas--Desayuno {
+    color: #f70000; }
+  .formatoRecetas--Almuerzo {
+    color: #85006e; }
+  .formatoRecetas--Merienda {
+    color: #00ce0a; }
+  .formatoRecetas--Cena {
+    color: #df7e00; }
