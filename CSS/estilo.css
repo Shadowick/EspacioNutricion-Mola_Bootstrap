@@ -33,15 +33,21 @@ h1, h2, p {
 .bg--green {
   background: #acc255; }
 
+.bg--colorListas {
+  color: #acc255; }
+
 div li {
   list-style-type: none; }
   div li a {
     list-style-type: none;
     font-size: 16pt;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none !important; }
 
 div a {
-  text-decoration: none !important; }
+  text-decoration: none !important;
+  all: unset;
+  cursor: pointer; }
 
 div p {
   font-family: Arial, Helvetica, sans-serif;

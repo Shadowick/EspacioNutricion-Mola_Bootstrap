@@ -5,10 +5,13 @@ div {
         list-style-type: none;
         font-size: 16pt;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none !important;
         }
     }
     a {
         text-decoration: none !important;
+        all: unset;
+        cursor: pointer;
     }
     p{
         font-family: Arial, Helvetica, sans-serif;
