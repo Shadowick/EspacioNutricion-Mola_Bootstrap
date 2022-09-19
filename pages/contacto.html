@@ -53,21 +53,42 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-12 col-lg-3">
+			<div class="col-12 col-lg-5">
 				<form action="">
-					<label for="Datos">Nombre y Apellido:</label>
-					<input type="text" name="Datos">
-					<input type="number" placeholder="edad">
-					<div>¡Quiero recibir información nueva!
-						<input type="checkbox" name="aceptar" value="1">
+					<div class="input-group mb-3">
+						<span class="input-group-text" id="basic-addon1">Nombre y Apellido</span>
+						<input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+					</div>  
+					<div class="input-group mb-3">
+						<span class="input-group-text" id="basic-addon1">Edad</span>
+						<input type="number" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
 					</div>
-					<div>COMENTARIOS:</div>
-					<textarea name="" id="" cols="30" rows="10"></textarea><br>
-					<input type="submit" value="enviar">
-					<input type="reset" value="resetear">
+					<div class="input-group mb-3">
+						<span class="input-group-text" id="basic-addon1">Correo electrónico</span>
+						<input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+					</div>
+					<div class="input-group mb-3">
+						<input type="number" class="form-control" placeholder="Peso en kg" aria-label="Peso">
+						<span></span>
+						<input type="number" class="form-control" placeholder="Talla en cm" aria-label="Talla">
+					  </div>
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+						<label class="form-check-label" for="flexCheckDefault">
+							¡Quiero recibir información nueva!
+						</label>
+					</div>
+					<div class="form-floating">
+						<label for="floatingTextarea2">Comentarios</label>
+						<textarea class="form-control" placeholder="¡Escribinos!" id="floatingTextarea2" style="height: 100px"></textarea>
+					</div>
+					<div>
+						<input type="submit" value="enviar">
+						<input type="reset" value="resetear">
+					</div>
 				</form>
 			</div>
-			<div class="col-12 col-lg-9">
+			<div class="col-12 col-lg-7">
 				<img src="https://static.vecteezy.com/system/resources/previews/002/158/430/non_2x/close-up-hand-of-doctor-writing-disease-symptoms-after-researching-and-treating-patient-photo.jpg" class="img-fluid" alt="Mano con formulario">
 			</div>
 		</div>
