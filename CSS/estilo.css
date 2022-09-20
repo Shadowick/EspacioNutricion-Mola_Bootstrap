@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .imgMenu {
   width: 150px;
   height: 150px; }
@@ -27,6 +28,10 @@
 .imgRecetasEspecifico {
   width: 80%;
   margin: auto; }
+
+.vidTamaño {
+  width: 600px;
+  height: 400px; }
 
 h1, h2, p {
   color: #acc255; }
@@ -62,7 +67,7 @@ div p {
 div h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  font-size: 48px; }
+  font-size: 42px; }
   div h1 p {
     font-size: 25pt; }
 
@@ -85,8 +90,15 @@ div li a {
 @media only screen and (max-width: 768px) {
   .imgPortada {
     height: 125px; }
+  h1 {
+    font-size: 20pt; }
   .fuenteH2--inicio {
-    font-size: 12pt; } }
+    font-size: 12pt; }
+  .fuenteFooter {
+    font-size: 10pt; }
+  .vidTamaño {
+    width: auto;
+    height: auto; } }
 
 .formatoRecetas, .formatoRecetas--Desayuno, .formatoRecetas--Almuerzo, .formatoRecetas--Merienda, .formatoRecetas--Cena {
   width: 225px;
