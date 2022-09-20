@@ -44,7 +44,7 @@ div li {
   list-style-type: none; }
   div li a {
     list-style-type: none;
-    font-size: 16pt;
+    font-size: 20pt;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none !important; }
 
@@ -64,12 +64,17 @@ div h1 {
   font-weight: bold;
   font-size: 48px; }
   div h1 p {
-    font-size: 25px; }
+    font-size: 25pt; }
 
-div h2 {
+.fuenteH2--general {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
-  font-size: 30px; }
+  font-size: 30pt; }
+
+.fuenteH2--inicio {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-size: 30pt; }
 
 main form {
   margin: 10px 10px 10px 10px; }
@@ -79,7 +84,9 @@ div li a {
 
 @media only screen and (max-width: 768px) {
   .imgPortada {
-    height: 125px; } }
+    height: 125px; }
+  .fuenteH2--inicio {
+    font-size: 12pt; } }
 
 .formatoRecetas, .formatoRecetas--Desayuno, .formatoRecetas--Almuerzo, .formatoRecetas--Merienda, .formatoRecetas--Cena {
   width: 225px;

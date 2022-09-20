@@ -3,7 +3,7 @@ div {
         list-style-type: none;
         a{
         list-style-type: none;
-        font-size: 16pt;
+        font-size: 20pt;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-decoration: none !important;
         }
@@ -24,12 +24,19 @@ div {
         font-weight: bold;
         font-size: 48px;
         p {
-        font-size: 25px;
+        font-size: 25pt;
         }
     }
-    h2{
+}
+.fuenteH2 {
+    &--general{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-style: normal;
-        font-size: 30px;
+        font-size: 30pt;
+    }
+    &--inicio{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-size: 30pt;
     }
 }

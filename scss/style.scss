@@ -18,6 +18,9 @@ div {
     .imgPortada{
         height: 125px;
     }
+    .fuenteH2--inicio{
+        font-size: 12pt;
+    }
 }
 .formatoRecetas {
 	@include tamaños(225px, 40px);
