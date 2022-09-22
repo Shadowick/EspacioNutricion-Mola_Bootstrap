@@ -24,6 +24,10 @@
     :hover img{
             transform: scale(1.2);
      }
+     &--individual{
+        @include tamaños(600px,600px);
+        
+     }
 }
 .imgRecetasEspecifico {
     width: 80%;

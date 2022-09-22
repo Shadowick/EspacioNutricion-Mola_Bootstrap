@@ -1,0 +1,50 @@
+.imgMenu {
+    width: 150px;
+    height: 150px; }
+
+.imgFooter {
+    width: 70px;
+    height: 70px; }
+
+.imgRecetas--individual {
+    width: 600px;
+    height: 600px; }
+
+.bg--fondo {
+    background-color: #acc255; }
+    
+.bg--green {
+    background: #acc255; }
+
+.bg--colorListas {
+    color: #acc255; }
+
+h1, h2{
+    color: #acc255; }
+
+.fuenteH1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 48px; }
+
+.fuenteH2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 30pt; }
+
+.gridContainer {
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "gridHeader gridHeader gridHeader gridHeader"
+    "gridMain gridMain gridMain gridMain"
+    "gridFooter gridFooter gridFooter gridFooter"
+    ;
+    }
+
+.gridHeader {
+    align-items: center;
+}
