@@ -90,6 +90,9 @@ main form {
 div li a {
   padding: 10px; }
 
+.top-buffer {
+  margin-top: 20px; }
+
 @media only screen and (max-width: 768px) {
   .imgPortada {
     height: 125px; }

@@ -22,15 +22,18 @@
 h1, h2{
     color: #acc255; }
 
+a{
+    color:rgba(0,0,0,.5);}
+
 .fuenteH1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 48px; }
+    font-size: 18pt; }
 
 .fuenteH2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
-    font-size: 30pt; }
+    font-size: 16pt; }
 
 .gridContainer{
     align-items: center;
@@ -49,6 +52,8 @@ main{
     grid-area: main;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 header{
     grid-area: header;
@@ -68,7 +73,7 @@ header nav ul {
 header nav ul li{
     text-decoration: none;
     list-style: none;
-    padding: 50px;
+    padding: 8px;
 }
 a{
     text-decoration: none;
